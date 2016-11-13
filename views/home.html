@@ -1,0 +1,17 @@
+<html>
+
+    <head>
+        <title>Home</title>
+    </head>
+
+    <body>
+        <p>Das ist ein test</p>
+        <p>{{.name}}</p>
+        {{range $key, $val := .list}}
+        <ul>
+            <li>{{$val}}</li>
+        </ul>
+        {{end}}
+    </body>
+
+</html>
